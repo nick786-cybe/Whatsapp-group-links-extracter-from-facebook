@@ -18,30 +18,30 @@ def login():
 
     if idd == '1':
         payload = {
-            'email':"8574310086",
-            'pass':"786786786"
+            'email':"",
+            'pass':""
         }
 
     elif idd == '2':
         payload = {
         
-            'email':"anartemp161@gmail.com",
-            'pass':"9920948068"   
+            'email':"",
+            'pass':""   
         }
     elif idd == '3':
         payload = {
-            'email':"lovishgarg0709@gmail.com",
-            'pass':"subscribemychannel"
+            'email':"",
+            'pass':""
         }
     elif idd == '4':
         payload = {
-            'email':"nick.r786",
-            'pass':"apjabdulkapam"
+            'email':"",
+            'pass':""
         }
     else:
         payload = {
-            'email':"nikhilrathour024@gmail.com",
-            'pass':"786786786"
+            'email':"",
+            'pass':""
         }
 
     data = urllib.parse.urlencode(payload).encode('utf-8')
