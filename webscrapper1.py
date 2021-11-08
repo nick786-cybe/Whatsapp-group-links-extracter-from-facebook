@@ -20,23 +20,12 @@ def login():
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
     urllib.request.install_opener(opener)
     authentication_url = "https://m.facebook.com/login.php"
-    idd = input('Enter Your Id number: 1/2:')
-
-    #idd = random.choice(['1','2','3','4','5','7','8',''])
-    print('ID:',idd)
-    
-    if idd == '1':
-        payload = {
-            'email':"anartemp161@gmail.com",
-            'pass':"9920948068"  
-        }
-
-    elif idd == '2':
-        payload = {
+   
+    payload = {
         
-            'email':"anartemp121@gmail.com",
-            'pass':"9920948068"   
-        }
+        'email':"",
+        'pass':""   
+    }
 
 
     data = urllib.parse.urlencode(payload).encode('utf-8')
