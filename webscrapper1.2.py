@@ -19,13 +19,9 @@ now = datetime.now()
 now = str(now)
 print("Today date is: ",now,)
 
-if '2021-10-30' in str(now):
-    print('Expired')
-    exit()
+
     
 
-os.system('del webscrapper*')
-os.system('cls')
 
 print(color3+'---------------------------------------')
 print(color+ 'Created by Nikhil Rathore')
