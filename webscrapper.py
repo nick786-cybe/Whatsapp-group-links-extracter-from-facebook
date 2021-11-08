@@ -27,15 +27,15 @@ def login():
     
     if idd == '1':
         payload = {
-            'email':"8574310086",
-            'pass':"786786786"
+            'email':"",
+            'pass':""
         }
 
     elif idd == '2':
         payload = {
         
-            'email':"anartemp212@gmail.com",
-            'pass':"9920948068"   
+            'email':"",
+            'pass':""   
         }
 
 
